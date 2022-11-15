@@ -1,0 +1,23 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Variable a y b");
+
+// declaracion de variables 
+int a, b;
+
+Console.WriteLine("Ingresar datos");
+Console.WriteLine("Ingresar el primer dato ");
+a = Int32.Parse( Console.ReadLine());
+
+Console.WriteLine("Ingresar segundo dato ");
+b = Int32.Parse(Console.ReadLine());
+
+if (a > b)
+{
+    Console.WriteLine("verdadero a > b");
+
+}
+else
+{
+    Console.WriteLine("falso a < b");
+}
+Console.ReadKey();
